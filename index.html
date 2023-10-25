@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Lab 3 – Simple Tip Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <p>ITMD 4/541 - Lab 3 - Cuiting Shu</p>
+    <h1>Tip Calculator</h1>
+	<form id="tipForm">
+        <label for="billTotal">Bill Total:</label><br>  
+		<input type="text" id="billTotal" name="billTotal"><br>
+        <label for="tip">Tip:</label><br>
+        <input type="range" id="tip" name="tip" min="0" max="100"><br>
+        <label for="tipPercentage">Tip Percentage:</label><br>
+        <input type="text" id="tipPercentage" name="tipPercentage" disabled><br>
+        <label for="tipAmount">Tip Amount:</label><br>
+        <input type="text" id="tipAmount" name="tipAmount" disabled><br>
+        <label for="totalBillWithTip">Total Bill with Tip:</label><br>
+        <input type="text" id="totalBillWithTip" name="totalBillWithTip" disabled><br>
+    </form>
+	<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
